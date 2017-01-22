@@ -7,7 +7,7 @@ namespace Server
     public class Util
 	{
 		/// <summary>
-		/// Classe para escrever o log em arquivo.
+		/// Write Log
 		/// </summary>
 		/// <param name="fileName"></param>
 		/// <param name="text"></param>
@@ -38,7 +38,12 @@ namespace Server
 
 		}
 
-		private static string FileName(string NomeArq)
+        /// <summary>
+        /// Sets file name.
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <returns></returns>
+		private static string FileName(string fileName)
 		{
 			var builder = new StringBuilder();
 			builder.Append(AppDomain.CurrentDomain.BaseDirectory);
@@ -51,7 +56,7 @@ namespace Server
             }
 
 			builder.Append(@"\");
-			builder.Append(NomeArq);
+			builder.Append(fileName);
 			builder.Append("_");
 			builder.Append(DateTime.Now.ToString("yyyyMMdd"));
 			builder.Append(".txt");
