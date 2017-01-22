@@ -25,6 +25,7 @@ namespace Server
             this.TextBox = new System.Windows.Forms.RichTextBox();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.IconServer = new System.Windows.Forms.NotifyIcon(this.components);
+            this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TextBox
@@ -42,11 +43,11 @@ namespace Server
             // 
             this.btnMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMinimize.Location = new System.Drawing.Point(656, 543);
+            this.btnMinimize.Location = new System.Drawing.Point(526, 543);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(124, 23);
             this.btnMinimize.TabIndex = 2;
-            this.btnMinimize.Text = "Minimize Screen";
+            this.btnMinimize.Text = "Minimize ";
             this.btnMinimize.UseVisualStyleBackColor = false;
             this.btnMinimize.Click += new System.EventHandler(this.Minimize);
             // 
@@ -57,12 +58,25 @@ namespace Server
             this.IconServer.Visible = true;
             this.IconServer.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.IconServer_MouseDoubleClick);
             // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Location = new System.Drawing.Point(656, 543);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(124, 23);
+            this.btnClose.TabIndex = 3;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.CloseApp);
+            // 
             // Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(792, 573);
             this.ControlBox = false;
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.TextBox);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -84,6 +98,7 @@ namespace Server
         private RichTextBox TextBox;
 		private Button btnMinimize;
         private NotifyIcon IconServer;
+        private Button btnClose;
     }
 
         

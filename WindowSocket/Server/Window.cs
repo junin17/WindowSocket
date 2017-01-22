@@ -85,7 +85,7 @@ namespace Server
 
                 
 
-                Util.WriteOnLog("LOG_SCREEN", "Nova Mensagem Tela - " + exit.ToString());
+                Util.WriteOnLog("LOG_SCREEN", "New Message Screen - " + exit.ToString());
                 
                 this.AppendText(exit.ToString());
 
@@ -161,6 +161,11 @@ namespace Server
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void CloseApp(object sender, EventArgs e)
+        {
+            this.CloseWindow();
         }
 
         private void CloseWindow()

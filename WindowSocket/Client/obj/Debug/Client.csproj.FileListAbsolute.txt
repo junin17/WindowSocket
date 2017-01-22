@@ -29,3 +29,9 @@ D:\SincPreactor_Fontes_v2\branches\v100\MonitorSincronismo\Client\bin\Debug\Clie
 D:\SincPreactor_Fontes_v2\branches\v100\MonitorSincronismo\Client\bin\Debug\Client.pdb
 D:\SincPreactor_Fontes_v2\branches\v100\MonitorSincronismo\Client\obj\Debug\Client.exe
 D:\SincPreactor_Fontes_v2\branches\v100\MonitorSincronismo\Client\obj\Debug\Client.pdb
+C:\Users\carlo\Documents\GitHub\WindowSocket\WindowSocket\Client\bin\Debug\Client.exe.config
+C:\Users\carlo\Documents\GitHub\WindowSocket\WindowSocket\Client\bin\Debug\Client.exe
+C:\Users\carlo\Documents\GitHub\WindowSocket\WindowSocket\Client\bin\Debug\Client.pdb
+C:\Users\carlo\Documents\GitHub\WindowSocket\WindowSocket\Client\obj\Debug\Client.exe
+C:\Users\carlo\Documents\GitHub\WindowSocket\WindowSocket\Client\obj\Debug\Client.pdb
+C:\Users\carlo\Documents\GitHub\WindowSocket\WindowSocket\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache

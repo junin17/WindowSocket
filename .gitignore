@@ -45,3 +45,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+*.suo
+*.user
+Server/bin/
+Server/obj/
+Server/bin/Debug/
+Server/obj/Release/

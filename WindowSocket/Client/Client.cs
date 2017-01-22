@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net.Sockets;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 
 
 
@@ -17,7 +12,6 @@ namespace Client
         private BinaryWriter write;
         private string message = "";
        
-        private Thread tipoThread;
         
         static void Main(string[] args)
         {
@@ -35,21 +29,17 @@ namespace Client
 
         public void RunClient()
         {
-            TcpClient cliente;
+            TcpClient client;
             try
             {
 
-                cliente = new TcpClient();
-
-                cliente.Connect("localhost", 9050);
+                client = new TcpClient("localhost", 9050);
+                
                 
 
-                sockStream = cliente.GetStream();
+                sockStream = client.GetStream();
                 write = new BinaryWriter(sockStream);
-				DateTime dataI = DateTime.Now;
-				
-				int num = 1;
-				write.Write(num.ToString());
+                
                 do
                 {
                     try
@@ -71,7 +61,7 @@ namespace Client
                 } while (message != "END");
                 write.Close();
                 sockStream.Close();
-                cliente.Close();
+                client.Close();
 
             }
 			catch (SocketException ex)

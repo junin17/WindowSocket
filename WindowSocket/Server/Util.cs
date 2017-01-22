@@ -44,6 +44,12 @@ namespace Server
 			builder.Append(AppDomain.CurrentDomain.BaseDirectory);
             builder.Append(@"\");
             builder.Append("Log");
+
+            if (!Directory.Exists(builder.ToString()))
+            {
+                Directory.CreateDirectory(builder.ToString());
+            }
+
 			builder.Append(@"\");
 			builder.Append(NomeArq);
 			builder.Append("_");

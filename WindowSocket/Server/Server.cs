@@ -12,7 +12,7 @@ namespace Server
     {
 
 
-        private int conexoes;
+        private int connections;
 
         public bool maximizedWindow { get; set; }
         private Thread thread;
@@ -39,7 +39,7 @@ namespace Server
             TcpListener listerner;
 
 
-            conexoes = 0;
+            connections = 0;
             try
             {
                 IPAddress ipAddress = Dns.GetHostEntry(Properties.Settings.Default.Adress).AddressList[0];
@@ -49,16 +49,16 @@ namespace Server
                 while (true)
                 {
 
-                    if (conexoes < 1)
+                    if (connections < 1)
                     {
 
-                        var mensagem = new Message { MessageReceived = "Wait for connections", Date = DateTime.Now };
-                        WriteOnBuffer(mensagem);
+                        var message = new Message { MessageReceived = "Wait for connections", Date = DateTime.Now };
+                        WriteOnBuffer(message);
 
                     }
 
 
-                    conexoes++;
+                    connections++;
 
                     TcpClient client = listerner.AcceptTcpClient();
 
