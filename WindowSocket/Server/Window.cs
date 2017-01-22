@@ -361,7 +361,9 @@ namespace Server
             server = new Server(this);
         }
 
-
-
+        private void IconServer_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            this.Max();
+        }
     }
 }

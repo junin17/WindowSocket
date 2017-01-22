@@ -55,6 +55,7 @@ namespace Server
             this.IconServer.Icon = ((System.Drawing.Icon)(resources.GetObject("IconServer.Icon")));
             this.IconServer.Text = "WindowServer";
             this.IconServer.Visible = true;
+            this.IconServer.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.IconServer_MouseDoubleClick);
             // 
             // Window
             // 
