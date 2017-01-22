@@ -1,0 +1,18 @@
+C:\Users\oper_syscoor\Documents\Visual Studio 2013\Projects\SocketTest\Client\bin\Release\Client.exe.config
+C:\Users\oper_syscoor\Documents\Visual Studio 2013\Projects\SocketTest\Client\bin\Release\Client.exe
+C:\Users\oper_syscoor\Documents\Visual Studio 2013\Projects\SocketTest\Client\bin\Release\Client.pdb
+C:\Users\oper_syscoor\Documents\Visual Studio 2013\Projects\SocketTest\Client\obj\Release\Client.csprojResolveAssemblyReference.cache
+C:\Users\oper_syscoor\Documents\Visual Studio 2013\Projects\SocketTest\Client\obj\Release\Client.exe
+C:\Users\oper_syscoor\Documents\Visual Studio 2013\Projects\SocketTest\Client\obj\Release\Client.pdb
+D:\SincPreactor_Fontes_v2\branches\v100\MonitorSincronismo\Client\bin\Release\Client.exe.config
+D:\SincPreactor_Fontes_v2\branches\v100\MonitorSincronismo\Client\bin\Release\Client.exe
+D:\SincPreactor_Fontes_v2\branches\v100\MonitorSincronismo\Client\bin\Release\Client.pdb
+D:\SincPreactor_Fontes_v2\branches\v100\MonitorSincronismo\Client\obj\Release\Client.csprojResolveAssemblyReference.cache
+D:\SincPreactor_Fontes_v2\branches\v100\MonitorSincronismo\Client\obj\Release\Client.exe
+D:\SincPreactor_Fontes_v2\branches\v100\MonitorSincronismo\Client\obj\Release\Client.pdb
+D:\SYSCOOR_Fontes_SincPreactor_Desenvolvimento\branches\v100\MonitorSincronismo\Client\bin\Release\Client.exe.config
+D:\SYSCOOR_Fontes_SincPreactor_Desenvolvimento\branches\v100\MonitorSincronismo\Client\bin\Release\Client.exe
+D:\SYSCOOR_Fontes_SincPreactor_Desenvolvimento\branches\v100\MonitorSincronismo\Client\bin\Release\Client.pdb
+D:\SYSCOOR_Fontes_SincPreactor_Desenvolvimento\branches\v100\MonitorSincronismo\Client\obj\Release\Client.csprojResolveAssemblyReference.cache
+D:\SYSCOOR_Fontes_SincPreactor_Desenvolvimento\branches\v100\MonitorSincronismo\Client\obj\Release\Client.exe
+D:\SYSCOOR_Fontes_SincPreactor_Desenvolvimento\branches\v100\MonitorSincronismo\Client\obj\Release\Client.pdb

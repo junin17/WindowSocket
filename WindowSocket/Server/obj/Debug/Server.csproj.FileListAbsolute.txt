@@ -1,0 +1,6 @@
+C:\Users\carlo\Documents\GitHub\WindowSocket\WindowSocket\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\carlo\Documents\GitHub\WindowSocket\WindowSocket\Server\obj\Debug\Server.Window.resources
+C:\Users\carlo\Documents\GitHub\WindowSocket\WindowSocket\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\carlo\Documents\GitHub\WindowSocket\WindowSocket\Server\obj\Debug\Server.WindowServer.resources
+C:\Users\carlo\Documents\GitHub\WindowSocket\WindowSocket\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\carlo\Documents\GitHub\WindowSocket\WindowSocket\Server\bin\Debug\WindowSocket.exe.config
