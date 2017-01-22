@@ -1,0 +1,18 @@
+22/01/2017 09:50:46: New signal - 1
+22/01/2017 09:50:46: New Message - 2
+22/01/2017 09:54:03: New signal - 1
+22/01/2017 09:54:03: New Message - 2
+22/01/2017 09:55:46: New signal - 1
+22/01/2017 09:55:46: New Message - 1
+22/01/2017 09:55:47: New signal - 1
+22/01/2017 09:55:47: New Message - 2
+22/01/2017 09:55:48: New signal - 1
+22/01/2017 09:55:48: New Message - 5
+22/01/2017 09:55:49: New signal - 1
+22/01/2017 09:55:49: New Message - 7
+22/01/2017 09:56:48: New signal - 1
+22/01/2017 09:56:48: New Message - 1
+22/01/2017 09:56:49: New signal - 1
+22/01/2017 09:56:49: New Message - 5
+22/01/2017 09:56:51: New signal - 0
+22/01/2017 09:56:51: New Message - Failure on Comunication

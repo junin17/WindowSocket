@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowSocket.exe" size="273920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowSocket.exe" size="274432">
       <assemblyIdentity name="WindowSocket" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3XRWpqHiKf8pE82hrVE7tm1yLMB7rvDWSRFQDWfRRas=</dsig:DigestValue>
+        <dsig:DigestValue>M7PAqK3wOdFpi3CpNACxQDochTnBUtpR5+4JP4295XE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

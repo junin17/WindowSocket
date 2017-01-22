@@ -133,6 +133,7 @@ namespace Server
                             var message = new Message { MessageReceived = "Failure on Comunication", Date = DateTime.Now, Signal = 0 };
                             var messageException = new Message { MessageReceived = ex.Message.Substring(0, Properties.Settings.Default.CharLimit) + "...", Date = DateTime.Now };
                             Write(message);
+                            window.Invoke(new Action(() => { window.ChangeIcon(message); }));
                             Util.WriteOnLog("LOG_ERROR", "Failure on Comunication");
                             Util.WriteOnLog("LOG_ERROR", ex.Message);
                             

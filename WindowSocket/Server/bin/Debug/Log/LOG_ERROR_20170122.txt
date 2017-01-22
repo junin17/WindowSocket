@@ -1,0 +1,6 @@
+22/01/2017 09:54:35: Failure on Comunication
+22/01/2017 09:54:35: Não é possível ler os dados da conexão de transporte: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+22/01/2017 09:55:50: Failure on Comunication
+22/01/2017 09:55:50: Não é possível ler os dados da conexão de transporte: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+22/01/2017 09:56:52: Failure on Comunication
+22/01/2017 09:56:52: Não é possível ler os dados da conexão de transporte: Foi forçado o cancelamento de uma conexão existente pelo host remoto.

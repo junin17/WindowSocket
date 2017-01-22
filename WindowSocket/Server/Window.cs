@@ -262,15 +262,15 @@ namespace Server
 
                 switch (message.Signal)
                 {
-                    // Programação Reprovada
+                    
                     case 1:
-                        IconServer.Icon = Properties.Resources.icon1;
+                        IconServer.Icon = Properties.Resources.icon2;
                         IconServer.Text = text.ToString();
                         break;
 
-                    // Recebendo Mensagem
+                    
                     case 0:
-                        IconServer.Icon = Properties.Resources.icon2;
+                        IconServer.Icon = Properties.Resources.icon1;
                         IconServer.Text = text.ToString();
                         WarningComunictation();
                         break;
